@@ -1133,7 +1133,9 @@ app.get('/tickets', requireWork, async (req, res) => {
     </div>
   `, user, req.currentCompany, req));
 });
-
+app.get('/', (req, res) => {
+  res.redirect('/login');
+});
 app.listen(PORT, () => {
   console.log('Server lÃ¤uft auf http://localhost:' + PORT);
 });
