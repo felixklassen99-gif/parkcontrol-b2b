@@ -1,0 +1,16 @@
+{
+  "name": "parkcontrol-b2b",
+  "version": "2.0.0",
+  "description": "ParkControl B2B Cloud MVP",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "express-session": "^1.18.1",
+    "multer": "^1.4.5-lts.1",
+    "qrcode": "^1.5.4",
+    "sqlite3": "^5.1.7"
+  }
+}
